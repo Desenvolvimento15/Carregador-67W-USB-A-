@@ -1,0 +1,2476 @@
+li {
+  list-style: none;
+}
+
+html > img,
+head > img,
+body > img {
+  z-index: -10;
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.xm-text {
+  display: inline-block;
+  white-space: break-spaces !important;
+}
+
+.xm-text sub,
+.xm-text sup {
+  font-feature-settings: "tnum";
+  vertical-align: super;
+  font-size: 0.4em;
+  font-weight: 400;
+  top: -0.6em;
+  left: 0.6em;
+}
+
+.hide {
+  display: none !important;
+}
+
+.xm-page-hide {
+  height: 0;
+  position: absolute;
+}
+
+.xm-picture .xm-img {
+  width: 100%;
+}
+
+.xm-img {
+  color: transparent;
+}
+
+.xm-img[src=""],
+.xm-img:not([src]) {
+  visibility: hidden;
+}
+
+.xm-picture {
+  display: inline-flex;
+}
+
+html[data-mi-dir="rtl"] .xm-text,
+.gcc .xm-text,
+.sa .xm-text,
+.ma-ar .xm-text,
+.ae-ar .xm-text,
+.sa-ar .xm-text,
+.eg .xm-text {
+  display: block;
+}
+
+html[data-mi-dir="rtl"] .xm-text,
+.gcc .xm-text,
+.sa .xm-text,
+.ae-ar .xm-text,
+.sa-ar .xm-text,
+.eg .xm-text {
+  direction: rtl;
+}
+
+.section {
+  background-repeat: no-repeat;
+  margin-bottom: -1px;
+  position: relative;
+}
+.xm-page-area > main,
+.xm-page-area_mobile > main {
+  z-index: 1;
+  position: relative;
+}
+.xm-page-area > main {
+  width: 100% !important;
+}
+
+
+.th .xm-text,
+.mm .xm-text,
+.kh .xm-text {
+  line-height: 1.5 !important;
+}
+:lang(ko-KR),
+.kr {
+  word-break: keep-all;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  vertical-align: baseline;
+  display: inline-block;
+}
+audio:not([controls]) {
+  height: 0;
+  display: none;
+}
+[hidden],
+template {
+  display: none;
+}
+
+abbr[title] {
+  border-bottom: 0.00391rem dotted;
+}
+b,
+strong {
+  font-weight: 700;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+small {
+  font-size: 80%;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 0.15625rem;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, sans-serif;
+  font-size: 1em;
+}
+fieldset {
+  border: 0.00391rem solid silver;
+  margin: 0 0.00781rem;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: 700;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+ul,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+sub,
+sup {
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+
+.eco_name-88 {
+  font-size: 0.34375rem;
+  line-height: 0.42969rem;
+}
+.eco_name-80 {
+  font-size: 0.3125rem;
+  line-height: 0.39063rem;
+}
+.eco_name-72 {
+  font-size: 0.34375rem;
+  line-height: 0.35156rem;
+}
+.eco_slogan {
+  font-size: 0.1875rem;
+  line-height: 0.23438rem;
+}
+.eco_ksp {
+  font-size: 0.11719rem;
+  line-height: 0.17188rem;
+}
+.eco_name-radius {
+  border-radius: 0.01563rem;
+  font-size: 0.15625rem;
+  line-height: 0.22656rem;
+}
+.eco_ksp-title {
+  font-size: 0.125rem;
+  line-height: 0.15625rem;
+}
+.eco_ksp-text {
+  font-size: 0.09375rem;
+  line-height: 0.125rem;
+}
+.eco_ksp-item {
+  padding: 0.11719rem 0.13672rem;
+}
+.eco_title {
+  font-size: 0.23438rem;
+  line-height: 0.28125rem;
+}
+.eco_text {
+  font-size: 0.11719rem;
+  line-height: 0.15625rem;
+}
+.eco_note {
+  font-size: 0.09375rem;
+  line-height: 0.10938rem;
+}
+.eco_number {
+  font-size: 0.42969rem;
+  line-height: 0.42969rem;
+}
+.eco_note-text {
+  font-size: 0.09375rem;
+  line-height: 0.125rem;
+}
+
+.eco_specs-title {
+  font-size: 0.10938rem;
+  line-height: 0.14063rem;
+}
+.eco_specs-label,
+.eco_specs-value {
+  font-size: 0.07031rem;
+  line-height: 0.10156rem;
+}
+
+
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+main {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.mi-btn-v4 {
+  --btn-padding: 12px, 40px;
+  --btn-font-size: 24px;
+  --btn-text-base: var(--text-base);
+  --btn-border-radius: 14px;
+  --btn-background-white: var(--background-light);
+  --btn-background-black: var(--background-black);
+  --btn-background-primary: var(--background-primary);
+  --btn-ellipsis-lines: 1;
+  --btn-ellipsis-direction: vertical;
+  --btn-background-color: transparent;
+  --link-text-decoration: underline;
+  padding: 12px, 40px;
+  padding: var(--btn-padding);
+  color: var(--btn-text-base);
+  font-size: 24px;
+  font-size: var(--btn-font-size);
+  background-color: transparent;
+  background-color: var(--btn-background-color);
+  border-radius: 14px;
+  border-radius: var(--btn-border-radius);
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+}
+.mi-btn-v4 .mi-btn-v4__text {
+  text-overflow: ellipsis;
+  word-break: break-word;
+  display: box;
+  -webkit-box-orient: var(--btn-ellipsis-direction);
+  -webkit-line-clamp: var(--btn-ellipsis-lines);
+  display: -webkit-box;
+  overflow: hidden;
+}
+.mi-btn-v4.mi-btn-v4--default {
+  --btn-background-color: transparent;
+  border: 1px solid var(--border-secondary);
+}
+.mi-btn-v4.mi-btn-v4--default:hover {
+  --btn-text-base: #666;
+  border-color: #666;
+}
+.mi-btn-v4.mi-btn-v4--default.mi-btn-v4--highlight {
+  --btn-text-base: var(--text-reverse);
+  --btn-background-color: var(--btn-background-primary);
+  border: 1px solid transparent;
+}
+.mi-btn-v4.mi-btn-v4--default.mi-btn-v4--highlight:hover {
+  --btn-text-base: var(--text-reverse);
+  --btn-background-color: #ff781a;
+  border-color: transparent;
+}
+.mi-btn-v4.mi-btn-v4--default.mi-btn-v4--dark {
+  --btn-text-base: var(--text-reverse);
+  border-color: var(--text-revers);
+}
+.mi-btn-v4.mi-btn-v4--default.mi-btn-v4--dark:hover {
+  --btn-text-base: #d0d0d0;
+  border-color: #d0d0d0;
+}
+.mi-btn-v4.mi-btn-v4--primary {
+  --btn-text-base: var(--text-reverse);
+  --btn-background-color: var(--btn-background-black);
+  border: 1px solid transparent;
+}
+.mi-btn-v4.mi-btn-v4--primary:hover {
+  --btn-background-color: #444;
+}
+.mi-btn-v4.mi-btn-v4--primary.mi-btn-v4--highlight {
+  --btn-background-color: var(--btn-background-primary);
+}
+.mi-btn-v4.mi-btn-v4--primary.mi-btn-v4--highlight:hover {
+  --btn-background-color: #ff781a;
+}
+.mi-btn-v4.mi-btn-v4--primary.mi-btn-v4--dark {
+  --btn-text-base: var(--text-base);
+  --btn-background-color: var(--btn-background-white);
+  border: 1px solid transparent;
+}
+.mi-btn-v4.mi-btn-v4--primary.mi-btn-v4--dark:hover {
+  --btn-background-color: #e1e1e1;
+}
+.mi-btn-v4:disabled,
+.mi-btn-v4.mi-btn-v4--disabled {
+  --btn-text-base: var(--text-reverse);
+  --btn-background-color: var(--brand-grey-40);
+  cursor: not-allowed;
+  border: 1px solid transparent;
+}
+.mi-btn-v4:disabled:hover,
+.mi-btn-v4.mi-btn-v4--disabled:hover {
+  --btn-background-color: var(--brand-grey-40);
+  --btn-text-base: var(--text-reverse);
+  border-color: transparent;
+}
+.mi-btn-v4.mi-btn-v4--link {
+  --link-font-size: 20px;
+  font-size: 20px;
+  font-size: var(--link-font-size);
+  line-height: inherit;
+  border-radius: 0;
+  border-radius: initial;
+  align-items: center;
+  padding: 0;
+  display: inline-flex;
+}
+.mi-btn-v4.mi-btn-v4--link:hover .mi-btn-v4__text {
+  -webkit-text-decoration: var(--link-text-decoration);
+  -webkit-text-decoration: var(--link-text-decoration);
+  text-decoration: var(--link-text-decoration);
+}
+.mi-btn-v4.mi-btn-v4--link.mi-btn-v4--disabled {
+  --btn-text-base: var(--text-secondary);
+  --btn-background-color: transparent;
+  border: none;
+}
+.mi-btn-v4.mi-btn-v4--link.mi-btn-v4--disabled:hover .mi-btn-v4__text {
+  --link-text-decoration: none;
+}
+.mi-btn-v4.mi-btn-v4--link.mi-btn-v4--highlight {
+  --btn-text-base: var(--text-primary);
+}
+.mi-btn-v4.mi-btn-v4--link.mi-btn-v4--dark {
+  --btn-text-base: #fff;
+}
+.mi-btn-v4.mi-btn-v4--arrow .micon {
+  font-size: inherit;
+  display: inline-block;
+}
+
+.mi-btn-v4.mi-btn-v4--icon {
+  --icon-font-size: 32px;
+  --icon-background-color: transparent;
+  background-color: transparent;
+  background-color: var(--icon-background-color);
+  padding: 0;
+}
+.mi-btn-v4.mi-btn-v4--icon:hover {
+  --btn-text-base: #444;
+}
+.mi-btn-v4.mi-btn-v4--icon .micon {
+  font-size: var(--icon-font-size);
+}
+.mi-btn-v4.mi-btn-v4--icon.mi-btn-v4--disabled,
+.mi-btn-v4.mi-btn-v4--icon.mi-btn-v4--disabled:hover {
+  --btn-text-base: var(--text-secondary);
+}
+.mi-btn-v4.mi-btn-v4--icon.mi-btn-v4--highlight {
+  --btn-text-base: var(--text-primary);
+}
+.mi-btn-v4.mi-btn-v4--icon.mi-btn-v4--highlight:hover {
+  --btn-text-base: #ff781a;
+}
+.mi-btn-v4.mi-btn-v4--icon.mi-btn-v4--dark {
+  --btn-text-base: var(--text-reverse);
+  border-color: var(--text-revers);
+}
+.mi-btn-v4.mi-btn-v4--icon.mi-btn-v4--dark:hover {
+  --btn-text-base: #e1e1e1;
+}
+
+
+
+.swiper-container {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+}
+.swiper-container-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+.swiper-wrapper {
+  z-index: 1;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  transition-property: transform;
+  display: flex;
+  position: relative;
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate(0, 0);
+}
+.swiper-container-multirow > .swiper-wrapper {
+  flex-wrap: wrap;
+}
+.swiper-container-multirow-column > .swiper-wrapper {
+  flex-flow: column wrap;
+}
+.swiper-container-free-mode > .swiper-wrapper {
+  margin: 0 auto;
+  transition-timing-function: ease-out;
+}
+.swiper-container-pointer-events {
+  touch-action: pan-y;
+}
+.swiper-container-pointer-events.swiper-container-vertical {
+  touch-action: pan-x;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  transition-property: transform;
+  position: relative;
+}
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+  height: auto;
+}
+.swiper-container-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+.swiper-container-3d {
+  perspective: 1200px;
+}
+.swiper-container-3d .swiper-cube-shadow,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top {
+  pointer-events: none;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.swiper-container-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+}
+.swiper-container-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-css-mode > .swiper-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+.swiper-container-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-container-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.swiper-container-horizontal.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.swiper-container-vertical.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
+}
+
+
+.div1.fly-birds-page_f727d0dcc0 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 10rem;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+.div1.fly-birds-page_f727d0dcc0 .div2 {
+  z-index: 4;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  height: 5.27344rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div2 .image3 {
+  z-index: 0;
+  width: 10rem;
+  height: 5.27344rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div2 .div4 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 6.77734rem;
+  min-height: 1.00391rem;
+  margin-top: -4.45313rem;
+  margin-left: -0.00391rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div2 .div4 .split_text69 {
+  color: #262626;
+  text-align: center;
+  width: 6.69922rem;
+  margin-left: 0.07813rem;
+  font-size: 0.34375rem;
+  font-weight: 700;
+  line-height: 0.32813rem;
+  display: inline;
+}
+.div1.fly-birds-page_f727d0dcc0 .div2 .div4 .image5 {
+  width: 6.77734rem;
+  height: 0.70313rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div2 .div4 .spacer {
+  flex: 1;
+}
+.div1.fly-birds-page_f727d0dcc0 .div2 .div4 .div6 {
+  color: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.68359rem;
+  min-height: 0.10938rem;
+  margin-top: 0.19141rem;
+  font-size: 0.14844rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div7 {
+  z-index: 3;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  height: 5.27344rem;
+  margin-top: -0.01563rem;
+  padding-bottom: 1.95703rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div7 .image8 {
+  z-index: 0;
+  width: 10rem;
+  height: 5.27344rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div7 .div9 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 3.01563rem;
+  min-height: auto;
+  margin-top: -3.32422rem;
+  margin-left: 2.71094rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div7 .div9 .split_text202 {
+  color: #000;
+  width: 3.42188rem;
+  font-size: 0.23438rem;
+  line-height: 0.27344rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div9
+  .split_text202:not(
+    :-webkit-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div9
+  .split_text202:not(
+    :-moz-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div9
+  .split_text202:not(
+    :is(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div9
+  .split_text202:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div9
+  .split_text202:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div9
+  .split_text202:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0 .div7 .div10 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 3.44141rem;
+  min-height: auto;
+  margin-top: 0.19141rem;
+  margin-left: 3.14453rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div7 .div10 .split_text201 {
+  color: #000;
+  letter-spacing: 0.00195rem;
+  width: 3.50391rem;
+  font-size: 0.10156rem;
+  line-height: 0.14063rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div10
+  .split_text201:not(
+    :-webkit-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div10
+  .split_text201:not(
+    :-moz-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div10
+  .split_text201:not(
+    :is(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div10
+  .split_text201:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div10
+  .split_text201:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div7
+  .div10
+  .split_text201:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0 .div11 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  height: 4.83203rem;
+  margin-top: -0.00781rem;
+  padding-right: 4.92188rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div11 .image12 {
+  z-index: 0;
+  width: 10rem;
+  height: 4.83203rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div11 .div13 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 3.39063rem;
+  min-height: 2.20313rem;
+  margin-top: 0.37109rem;
+  margin-left: -8.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div11 .div13 .div14 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2.33984rem;
+  min-height: 1.0625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div11 .div13 .div14 .split_text200 {
+  color: #000;
+  width: 3.21875rem;
+  font-size: 0.23438rem;
+  line-height: 0.27344rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div14
+  .split_text200:not(
+    :-webkit-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div14
+  .split_text200:not(
+    :-moz-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div14
+  .split_text200:not(
+    :is(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div14
+  .split_text200:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div14
+  .split_text200:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div14
+  .split_text200:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0 .div11 .div13 .div15 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 3.38672rem;
+  min-height: 0.94531rem;
+  margin-top: 0.19531rem;
+  margin-left: 0.00391rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div11 .div13 .div15 .split_text199 {
+  color: #000;
+  letter-spacing: 0.00195rem;
+  width: 3.50391rem;
+  font-size: 0.10156rem;
+  line-height: 0.14063rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div15
+  .split_text199:not(
+    :-webkit-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div15
+  .split_text199:not(
+    :-moz-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div15
+  .split_text199:not(
+    :is(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div15
+  .split_text199:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div15
+  .split_text199:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div11
+  .div13
+  .div15
+  .split_text199:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  height: 6.48047rem;
+  margin-top: -0.01172rem;
+  padding-bottom: 1.13672rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .image17 {
+  z-index: 0;
+  width: 10rem;
+  height: 6.48047rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div18 {
+  z-index: 3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.18359rem;
+  min-height: auto;
+  margin-top: -5.01172rem;
+  margin-left: 0.01172rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div18 .split_text198 {
+  color: #000;
+  text-align: center;
+  width: 5.62891rem;
+  font-size: 0.23438rem;
+  line-height: 0.27344rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div19 {
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.04297rem;
+  min-height: auto;
+  margin-top: 0.19531rem;
+  margin-left: -0.00391rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div19 .split_text197 {
+  color: #000;
+  letter-spacing: 0.00195rem;
+  text-align: center;
+  width: 5.21094rem;
+  font-size: 0.10156rem;
+  line-height: 0.14063rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 5.47266rem;
+  min-height: 2.11328rem;
+  margin-top: 0.66797rem;
+  margin-left: 0.06641rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 5.36719rem;
+  min-height: 0.93359rem;
+  margin-left: 0.02344rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div22 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.58203rem;
+  min-height: 0.8125rem;
+  margin-top: 0.00391rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div22 .image23 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.00781rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div22 .div24 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.58203rem;
+  min-height: 0.21875rem;
+  margin-top: 0.10547rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div21
+  .div22
+  .div24
+  .split_text196 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div25 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.58594rem;
+  min-height: 0.8125rem;
+  margin-top: 0.00391rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div25 .image26 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.01172rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div25 .div27 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.58594rem;
+  min-height: 0.22266rem;
+  margin-top: 0.10156rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div21
+  .div25
+  .div27
+  .split_text195 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div28 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.58203rem;
+  min-height: 0.8125rem;
+  margin-top: 0.00391rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div28 .image29 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.00781rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div28 .div30 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.58203rem;
+  min-height: 0.21875rem;
+  margin-top: 0.10547rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div21
+  .div28
+  .div30
+  .split_text194 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div31 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.79688rem;
+  min-height: 0.92969rem;
+  margin-top: 0.00391rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div31 .image32 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.01172rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div31 .div33 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.79688rem;
+  min-height: 0.33984rem;
+  margin-top: 0.10156rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div21
+  .div31
+  .div33
+  .split_text193 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div34 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.60938rem;
+  min-height: 0.81641rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div34 .image35 {
+  width: 0.49219rem;
+  height: 0.49219rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div21 .div34 .div36 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.60938rem;
+  min-height: 0.22266rem;
+  margin-top: 0.10156rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div21
+  .div34
+  .div36
+  .split_text192 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 5.47266rem;
+  min-height: 0.92969rem;
+  margin-top: 0.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div38 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.64063rem;
+  min-height: 0.8125rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div38 .image39 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: -0.00391rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div38 .div40 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.64063rem;
+  min-height: 0.21875rem;
+  margin-top: 0.10547rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div37
+  .div38
+  .div40
+  .split_text191 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div41 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.78906rem;
+  min-height: 0.80859rem;
+  margin-top: 0.00391rem;
+  margin-left: 0.47266rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div41 .image42 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.00391rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div41 .div43 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.78906rem;
+  min-height: 0.22266rem;
+  margin-top: 0.09766rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div37
+  .div41
+  .div43
+  .split_text190 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div44 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.51172rem;
+  min-height: 0.92578rem;
+  margin-top: 0.00391rem;
+  margin-left: 0.53906rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div44 .image45 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.00781rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div44 .div46 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.51172rem;
+  min-height: 0.33594rem;
+  margin-top: 0.10156rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div37
+  .div44
+  .div46
+  .split_text189 {
+  color: #000;
+  text-align: center;
+  width: 1.01172rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div47 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 0.49219rem;
+  min-height: 0.80859rem;
+  margin-top: 0.00391rem;
+  margin-left: 0.69141rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div47 .image48 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.00391rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div47 .div49 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.48828rem;
+  min-height: 0.22266rem;
+  margin-top: 0.09766rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div37
+  .div47
+  .div49
+  .split_text188 {
+  color: #000;
+  text-align: center;
+  width: 0.91016rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div50 {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 0.77344rem;
+  min-height: 0.80859rem;
+  margin-top: 0.00391rem;
+  margin-left: 0.5625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div50 .image51 {
+  width: 0.48828rem;
+  height: 0.48828rem;
+  margin-left: 0.00391rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div16 .div20 .div37 .div50 .div52 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 0.77344rem;
+  min-height: 0.22266rem;
+  margin-top: 0.09766rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div16
+  .div20
+  .div37
+  .div50
+  .div52
+  .split_text187 {
+  color: #000;
+  text-align: center;
+  width: 0.91016rem;
+  font-size: 0.10156rem;
+  line-height: 0.11719rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 {
+  z-index: 0;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 10rem;
+  height: 2.26953rem;
+  margin-top: -0.01172rem;
+  padding-right: 2.58203rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .image54 {
+  z-index: 0;
+  width: 10rem;
+  height: 2.26953rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .div55 {
+  z-index: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 0.33203rem;
+  margin-top: 0.71094rem;
+  margin-left: -4.13281rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .div55 .div83 {
+  z-index: 1;
+  box-sizing: border-box;
+  border: 0.01563rem solid #000;
+  border-radius: 0.03125rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.05859rem 0.17578rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .div55 .div83 .split_text4521 {
+  color: #000;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 0.125rem;
+  line-height: 1;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div83
+  .split_text4521:not(
+    :-webkit-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  margin-right: 0.17578rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div83
+  .split_text4521:not(
+    :-moz-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  margin-right: 0.17578rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div83
+  .split_text4521:not(
+    :is(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  margin-right: 0.17578rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div83
+  .split_text4521:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  margin-left: 0.17578rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div83
+  .split_text4521:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  margin-left: 0.17578rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div83
+  .split_text4521:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  margin-left: 0.17578rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .div55 .div83 .split_text4521-bg {
+  background-image: var(--text4521);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 0.36719rem;
+  height: 0.18359rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .div55 .image56 {
+  z-index: 0;
+  width: 1.55078rem;
+  height: 0.33203rem;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .div55 .div57 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 0.53516rem;
+  min-height: 0.11719rem;
+  margin-top: 0.03516rem;
+  margin-left: -1.30469rem;
+  display: flex;
+}
+.div1.fly-birds-page_f727d0dcc0 .div53 .div55 .div57 .split_text186 {
+  color: #454545;
+  width: 0.57422rem;
+  font-size: 0.125rem;
+  line-height: 0.17578rem;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div57
+  .split_text186:not(
+    :-webkit-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div57
+  .split_text186:not(
+    :-moz-any(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div57
+  .split_text186:not(
+    :is(
+      :lang(ae),
+      :lang(ar),
+      :lang(arc),
+      :lang(bcc),
+      :lang(bqi),
+      :lang(ckb),
+      :lang(dv),
+      :lang(fa),
+      :lang(glk),
+      :lang(he),
+      :lang(ku),
+      :lang(mzn),
+      :lang(nqo),
+      :lang(pnb),
+      :lang(ps),
+      :lang(sd),
+      :lang(ug),
+      :lang(ur),
+      :lang(yi)
+    )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div57
+  .split_text186:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div57
+  .split_text186:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f727d0dcc0
+  .div53
+  .div55
+  .div57
+  .split_text186:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.f-thin {
+  font-weight: 100;
+}
+.f-extra {
+  font-weight: 200;
+}
+.f-light {
+  font-weight: 300;
+}
+.f-regular {
+  font-weight: 400;
+}
+.f-medium {
+  font-weight: 500;
+}
+.f-semi {
+  font-weight: 600;
+}
+.f-bold {
+  font-weight: 700;
+}
+.f-bolder {
+  font-weight: 800;
+}
+.f-heavy {
+  font-weight: 900;
+}
+.xm-price,
+.xm-button,
+.xm-navbar__nav-item {
+  font-weight: 400 !important;
+}
+.specs-con {
+  background-color: #fff;
+}
+.specs-con .f12 {
+  font-size: 12px;
+}
+.specs-con .f14 {
+  font-size: 14px;
+}
+.specs-con .f16 {
+  font-size: 16px;
+}
+.specs-con .f18 {
+  font-size: 18px;
+}
+.specs-con .f20 {
+  font-size: 20px;
+}
+.specs-con .f22 {
+  font-size: 22px;
+}
+.specs-con .f24 {
+  font-size: 24px;
+}
+.specs-con .f28 {
+  font-size: 28px;
+}
+.specs-con .f30 {
+  font-size: 30px;
+}
+.specs-con .f32 {
+  font-size: 32px;
+}
+.specs-con .f36 {
+  font-size: 36px;
+}
+.specs-con .f38 {
+  font-size: 38px;
+}
+.specs-con .f40 {
+  font-size: 40px;
+}
+.specs-con .f46 {
+  font-size: 46px;
+}
+.specs-con .f48 {
+  font-size: 48px;
+}
+.specs-con .f50 {
+  font-size: 50px;
+}
+.specs-con .f56 {
+  font-size: 56px;
+}
+.specs-con .f60 {
+  font-size: 60px;
+}
+.specs-con .f64 {
+  font-size: 64px;
+}
+.specs-con .f70 {
+  font-size: 70px;
+}
+.specs-con .f72 {
+  font-size: 72px;
+}
+.specs-con .f74 {
+  font-size: 74px;
+}
+.specs-con .f76 {
+  font-size: 76px;
+}
+.specs-con .f80 {
+  font-size: 80px;
+}
+.specs-con .f90 {
+  font-size: 90px;
+}
+.specs-con .f100 {
+  font-size: 100px;
+}
+.specs-con .f110 {
+  font-size: 110px;
+}
+.specs-con .f120 {
+  font-size: 120px;
+}
+.specs-con .f130 {
+  font-size: 130px;
+}
+.specs-con .f140 {
+  font-size: 140px;
+}
+.specs-con .f148 {
+  font-size: 148px;
+}
+.specs-con .f150 {
+  font-size: 150px;
+}
+.specs-con .section {
+  box-sizing: border-box;
+  width: 1226px;
+  margin: 0 auto;
+}
+.mi-toast.mi-toast--responsive .mi-toast__wrapper-enter {
+  opacity: 0;
+}
+.mi-toast.mi-toast--responsive .mi-toast__wrapper-enter-active {
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+.mi-toast.mi-toast--responsive .mi-toast__wrapper-exit {
+  opacity: 1;
+}
+.mi-toast.mi-toast--responsive .mi-toast__wrapper-exit-active {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.mi-toast.mi-toast--responsive .mi-toast__content {
+  z-index: 20;
+  box-sizing: border-box;
+  color: var(--title-primary-variant-2);
+  text-align: center;
+  background: var(--background-toast);
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media screen and (min-width: 1226px) {
+  .mi-toast.mi-toast--responsive .mi-toast__content {
+    border-radius: 4px;
+    max-width: 580px;
+    padding: 15px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    bottom: 150px;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .mi-toast.mi-toast--responsive .mi-toast__content {
+    border-radius: 10px;
+    max-width: 580px;
+    padding: 20px 30px;
+    font-size: 26px;
+    line-height: 32px;
+    bottom: 150px;
+  }
+}
+.mi-toast.mi-toast--responsive .mi-toast__img {
+  text-align: center;
+}
+@media screen and (max-width: 1225px) {
+  .mi-toast.mi-toast--responsive .mi-toast__img {
+    margin-bottom: 10px;
+  }
+  .mi-toast.mi-toast--responsive .mi-toast__img img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 1226px) {
+  .mi-toast.mi-toast--responsive .mi-toast__img {
+    margin-bottom: 10px;
+  }
+  .mi-toast.mi-toast--responsive .mi-toast__img img {
+    width: 40px;
+    height: 40px;
+  }
+}

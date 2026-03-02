@@ -1,0 +1,1 @@
+# Carregador-67W-USB-A-
